@@ -1,0 +1,13 @@
+Alberges [Large]
++Iglesias
++Tiendas
++ONG
++Ebajadas
+
+Albergues [Small]
++Alimentación
++Escuelas
++Buses
++Trenes
+
+S.O.S.
