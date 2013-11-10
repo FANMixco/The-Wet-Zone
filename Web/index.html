@@ -2,94 +2,168 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="author" content="Ale Martir - Creatyum Graphics">
 	<meta name="viewport" content="width=device-width">
-	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/main.css">
+	<script src="js/less.js"></script>
+<!-- 1. Link to jQuery (1.8 or later), -->
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script> <!-- 33 KB -->
+	<link rel="stylesheet" href="css/lightbox.css">
 	<title>The Wet Zone</title>
+	<style>
+        #capaSuperior{
+        position: fixed;
+        right: 0;
+        left: 0;
+        top: 0;
+    }
+    </style>
+	
 </head>
 <body>
-	<header>
+	<header class="wall">
+	<div id="capaSuperior">
+        <nav class="main-menu">
+        	<ul>
+		        <li><a href="#about"><i class="fa fa-info-circle"></i> About</a></li>
+		        <li><a href="#gallery"><i class="fa fa-picture-o"></i> Gallery</a></li>
+		        <li><a href="#download"><i class="fa fa-download"></i> Download</a></li>
+		        <li><a href="#"><i class="fa fa-arrow-up"></i> Top</a></li>
+		    </ul>
+        </nav>
+	</div>
 		<div id="logo">
             <a href="index.html"><figure><img src="img/logo.png" alt="Logo"></figure></a>
         </div>
-		<h1>The Wet Zone</h1>
-		<nav class="main-menu">
-		    <ul>
-		        <li><a href="#about">Project</a></li>
-		        <li><a href="#app">App</a></li>
-		        <li><a href="#download">Download</a></li>
-		    </ul>
-		</nav>
 	</header>
-	<h1 class="title"><a name="about"></a>About The Project</h1>
+	<a name="about" />
 	<section class="projects">
+	<h1 class="title">About The Project</h1>
 		<article>
 			<h1>What is it?</h1>
-			<p align="justify">The Wet Zone, is a project for a particular purpose: "Saving Lives", this project was born in a country where there are high rates of immigration, many of them died in the attempt, or even suffer terrible accidents, some of them are kidnapped or killed. And most of them have a main goal to achieve the American’s Dream, or improve their lifestyle helping their families or relatives.</p>
-			<p align="justify">The Wet Zone, is a project with a big social purpose: "Saving Lives ", how many people in Latin America have lived different experiences that force their friends, relatives or acquaintances to take the risk of venturing in the dangerous and long journey to achieve the American’s Dream but only few of them arrive to the USA, many of them suffer a lot of Violations of Human Rights, we can include kidnapping, rapes, robberies, dismemberments and some of them death.
-			<p align="justify">Knowing this, the project is focused: to provide a tool that help the migrant (they should travel by land), this App is not looking to facilitate illegal migration but It’s trying to keep migrant alive. How? Simple, the team has developed a mobile app that helps migrants to stay alive in various ways. The App includes:</p>
-			<p align="left">1)	Map, which one works in offline, that has been preloaded with the danger points, embassies, hostels, water sources, among others, those are collected from different sources such as censuses of the United Nations, universities, the Ministry of Foreign Affairs of El Salvador, UNDP and others.</p>
-			<p align="left">2)	Compass, that helps migrants to locate the right way if they haven’t previously downloaded case the required maps.</p>
-			<p align="left">3)	Profile, where the migrant must appends important data that will help rescue workers and security to identify the migrant to be the case of an accident or death.</p>
-			<p align="left">4)	Survival Tips, these are some basic ideas that are looking to provide such a notion in a hard moment for example if they lose the train or they are in the Arizona’s Desert alone.</p>
-			<p align="left">5)	SOS button or panic button, if they suffer something dangerous or it’s attempting their life during the trip, they could warn or look for help from the police or the security people from the zone, the button would alert nearby organizations by a SMS and send a copy to the project team for the next update of the App in order to analyze the new dangerous places.</p>
+			<p>The Wet Zone, is a project for a particular purpose: "Saving Lives", this project was born in a country where there are high rates of immigration, many of them died in the attempt, or even suffer terrible accidents, some of them are kidnapped or killed. And most of them have a main goal to achieve the American’s Dream, or improve their lifestyle helping their families or relatives.</p>
+			<p>The Wet Zone, is a project with a big social purpose: "Saving Lives ", how many people in Latin America have lived different experiences that force their friends, relatives or acquaintances to take the risk of venturing in the dangerous and long journey to achieve the American’s Dream but only few of them arrive to the USA, many of them suffer a lot of Violations of Human Rights, we can include kidnapping, rapes, robberies, dismemberments and some of them death.</p>
+			<p>Knowing this, the project is focused: to provide a tool that help the migrant (they should travel by land), this App is not looking to facilitate illegal migration but It’s trying to keep migrant alive. How? Simple, the team has developed a mobile app that helps migrants to stay alive in various ways. The App includes:</p>
 		</article>
-	<p class="special-text"><a href="#">Go Top</a></p>
-	</section>
-<hr />
-	<h1 class="title"><a name="app">About The App</h1>
-	<section class="projects">
+		<article>
+			<table>
+				<tr>
+					<td class="columna1"><p>1)	I'm here, with the mobile positioning system is located in the preloaded map where we are at that time and see that we are closest either shelter or any danger zone.</p></td>
+					<td class="columna2"><p>2)	Map, which one works in offline, that has been preloaded with the danger points, embassies, hostels, water sources, among others, those are collected from different sources such as censuses of the United Nations, universities, the Ministry of Foreign Affairs of El Salvador, UNDP and others.</p></td>
+				</tr>
+				<tr>
+					<td class="columna1"><p>3)	Compass, that helps migrants to locate the right way if they haven’t previously downloaded case the required maps.</p></td>
+					<td class="columna2"><p>4)	Profile, where the migrant must appends important data that will help rescue workers and security to identify the migrant to be the case of an accident or death.</p></td>
+				</tr>
+				<tr>
+					<td class="columna1"><p>5)	Survival Tips, these are some basic ideas that are looking to provide such a notion in a hard moment for example if they lose the train or they are in the Arizona’s Desert alone.</p></td>
+					<td class="columna2"><p>6)	SOS button or panic button, if they suffer something dangerous or it’s attempting their life during the trip, they could warn or look for help from the police or the security people from the zone, the button would alert nearby organizations by a SMS and send a copy to the project team for the next update of the App in order to analyze the new dangerous places.</p></td>
+				</tr>
+			</table>
+		</article>
 		<article>
 			<h1>How does it work?</h1>
-			<p align="justify">The app works in offline mode , which means that the migrant does not need a navigation package to make use of it. As mentioned above , has several modules.</p>
+			<p>The application works in offline mode, which means that the migrant does not need a navigation package to make use of it. As detailed above, has several modules. Below you can see each of the icons in the order previously dimensioned. Do click in the Icon if you want to see how it works!</p>
 		</article>
 		<article>
-			<figure class="picture">
-                <img src="img/screenshots/01.png"/>
+			<figure class="tiles">
+                <a class="example-image-link" href="img/wp_ss_20131108_0005.png" data-lightbox="example-set" title="Option I'm Here!, You can use the aerial and roads view."><img src="img/tiles/im-here.png"/ class="imgSize">
+                <p class="special-text">I'm Here</p></a>
             </figure>
 		</article>
 		<article>
-			<figure class="picture">
-                <img src="img/screenshots/02.png"/>
+			<figure class="tiles">
+                <a class="example-image-link" href="img/wp_ss_20131108_0007.png" data-lightbox="example-set" title="Map all of places that has the App."><img src="img/tiles/map.png"/ class="imgSize">
+                <p class="special-text">Map</p></a>
             </figure>
 		</article>
 		<article>
-			<figure class="picture">
-                <img src="img/screenshots/03.png"/>
+			<figure class="tiles">
+                <a class="example-image-link" href="img/wp_ss_20131108_0016.png" data-lightbox="example-set" title="Basic information of a profile."><img src="img/tiles/profile.png"/ class="imgSize">
+                <p class="special-text">Profile</p></a>
             </figure>
 		</article>
 		<article>
-			<figure class="picture">
-                <img src="img/screenshots/04.png"/>
+			<figure class="tiles">
+                <a class="example-image-link" href="img/wp_ss_20131108_0015.png" data-lightbox="example-set" title="Meaning of the SOS button and how it works."><img src="img/tiles/sos.png"/ class="imgSize">
+                <p class="special-text">S.O.S</p></a>
             </figure>
 		</article>	
-	<p class="special-text"><a href="#">Go Top</a></p>
+		<article>
+			<figure class="tiles">
+                <a class="example-image-link" href="img/wp_ss_20131108_0011.png" data-lightbox="example-set" title="Compass of the App."><img src="img/tiles/compass.png"/ class="imgSize">
+                <p class="special-text">Compass</p></a>
+            </figure>
+		</article>
+		<article>
+			<figure class="tiles">
+                <a class="example-image-link" href="img/wp_ss_20131108_0023.png" data-lightbox="example-set" title="Tips available for the migrant."><img src="img/tiles/tips.png"/ class="imgSize">
+                <p class="special-text">Tips</p></a>
+            </figure>
+		</article>
+		<article>
+			<figure class="tiles">
+                <a class="example-image-link" href="img/wp_ss_20131108_0013.png" data-lightbox="example-set" title="Help about the meaning of the icons."><img src="img/tiles/help.png"/ class="imgSize">
+                <p class="special-text">Help</p></a>
+            </figure>
+		</article>
 	</section>
-<hr />
-	<h1 class="title"><a name="download">Download</h1>
+<hr>
+	<a name="gallery" />
 	<section class="projects">
+	<h1 class="title">Gallery</h1>
 		<article>
-			<p class="justify">Website’s Repository</p>
-			<a href="https://github.com/FANMixco/The-Wet-Zone" target="_blank"><img src="img/app_store.png"></a>
-		</article>
-		<article>
-			<p>Website</p>
-			<a class="btn" href="https://github.com/FANMixco/TheWetZone" target="_blank"><img src="img/google_play.png"></a>
-		</article>
-		<article>
-			<p class="justify">App’s Repository</p>
-			<a href="http://thewetzone.azurewebsites.net/Web/index.html" target="_blank"><img src="img/android.png"></a>
+			<object data="gallery.html" width="360" height="620">
+				<embed src="gallery.html" width="360" height="620"> </embed>
+				Error: Embedded data could not be displayed.
+			</object>
 		</article>
 	</section>
+
+<hr>
+	<a name="download" />
 	<section class="projects">
+	<h1 class="title">Download</h1>
 		<article>
-			<p class="title">Comming Soon...</p>
-			<img src="img/comingsoon.png"></a>
+			<a href="https://github.com/the-wet-zone/the-wet-zone.github.io" target="_blank"><i class="fa fa-github fa-5x"></i></a>
+			<p>Website’s Repository</p>
 		</article>
-	<p class="special-text"><a href="#">Go Top</a></p>
+		<article>
+			<a href="https://github.com/FANMixco/TheWetZone" target="_blank"><i class="fa fa-github fa-5x"></i></a>
+			<p>App’s Repository</p>
+		</article>
 	</section>
-<hr />
+	<section class="projects-second">
+		<article>
+			<h1 class="title">Comming Soon...</h1>
+			<p class="icon-text"><i class="fa fa-windows fa-3x"></i></p>
+			<p class="icon-text"><i class="fa fa-android fa-3x"></i></p>
+			<p class="icon-text"><i class="fa fa-apple fa-3x"></i></p>
+		</article>
+	</section>
 	<footer>
-		<p>&copy; 2013 The Wet Zone &middot; El Salvador</p>
+	<p class="footer-text">For more information contact us:</p>
+	<a id="mail" href="mailto:thewetzone@outlook.com">thewetzone@outlook.com</a><br /><br />
+	<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.es" target="_blank"><img alt="Licencia Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-nd/3.0/88x31.png" /></a><br/><p class="footer-text">This project is licensed under a Creative Commons Attribution 3.0 Unported</p>
 	</footer>
+    <!--JavaScript-->
+    <script src="js/main.js"></script>
+	<script src="js/lightbox-2.6.min.js"></script>
+	<style>
+		.imgSize {
+			height:200px;
+			width:200px;
+		}
+		
+		a#mail:link {
+			color: yellow;
+			text-decoration:underline;
+		}
+		a#mail:visited {
+			color: white;
+			text-decoration:none;
+		}
+	</style>
 </body>
 </html>

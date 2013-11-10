@@ -1,0 +1,71 @@
+wp_ss_20131108_0004
+Home Screen of The Wet Zone
+
+wp_ss_20131108_0005
+Option I'm Here!, You can use the aerial and roads view.
+
+wp_ss_20131108_0006
+Message of current location (you need internet in order to send it).
+
+wp_ss_20131108_0007
+Map all of places that has the App.
+
+wp_ss_20131108_0027
+Map Categories (with information).
+
+wp_ss_20131108_0029
+Countries covered by the data
+
+wp_ss_20131108_0030
+Map detail of a particular country
+
+wp_ss_20131108_0008
+Data held by each country
+
+wp_ss_20131108_0010
+Map with all data of a specific option
+
+wp_ss_20131108_0009
+Data of specific option
+
+wp_ss_20131108_0011
+Compass of the App
+
+wp_ss_20131108_0013
+Help about the meaning of the icons
+
+wp_ss_20131108_0014
+Explicación del botón de SOS
+
+wp_ss_20131108_0015
+Meaning of the SOS button and how it works
+
+wp_ss_20131108_0016
+Basic information of a profile
+
+wp_ss_20131108_0017
+Medical Profile
+
+wp_ss_20131108_0018
+Contact information (use password to check or edit the data)
+
+wp_ss_20131108_0019
+Result from a place to check.
+
+wp_ss_20131108_0020
+Photografy of the place.
+
+wp_ss_20131108_0021
+Place description.
+
+wp_ss_20131108_0022
+Contact information.
+
+wp_ss_20131108_0023
+Tips available for the migrant.
+
+wp_ss_20131108_0024
+Photografy of the tip.
+
+wp_ss_20131108_0025
+Tip description.

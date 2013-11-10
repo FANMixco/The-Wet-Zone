@@ -1,0 +1,340 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:100,300);
+
+/*-------------------------------------
+          ESTILOS BÁSICOS
+--------------------------------------*/
+body {
+    background: #f3f2f2;
+    color: #444;
+    font: 1em 'Roboto', Arial;
+    font-weight: 300;
+    margin: 0;
+}
+
+a {
+    color: @blackgray;
+    text-decoration: none;
+}
+
+/*-------------------------------------
+              COLORES
+--------------------------------------*/
+@article-title: #111 ;
+@greenapple: #aeff00 ;
+@greenc: #88FF00 ;
+@blackgray: #111 ;
+@grayblack: #282b26;
+@turquoise : #1abc9c ; 
+@emerland : #2ecc71 ; 
+@peterriver : #3498db ; 
+@amethyst : #9b59b6 ; 
+@wetasphalt : #34495e ; 
+@greensea : #16a085 ; 
+@nephritis : #27ae60 ; 
+@belizehole : #2980b9 ; 
+@wisteria : #8e44ad ; 
+@midnightblue : #2c3e50 ; 
+@sunflower : #f1c40f ; 
+@carrot : #e67e22 ; 
+@alizarin : #e74c3c ; 
+@clouds : #ecf0f1 ;
+@concrete : #95a5a6 ; 
+@orange : #f39c12 ; 
+@pumpkin : #d35400 ; 
+@pomegranate : #c0392b ; 
+@silver : #bdc3c7 ; 
+@asbestos : #7f8c8d ;
+@turquesa: #5dc5c6 ;
+
+/*-------------------------------------
+              HEADER
+--------------------------------------*/
+header {
+    background: @blackgray;
+    border-bottom: @blackgray;
+    padding: 1em;
+    text-align: center;
+}
+
+#logo {
+    figure, div {
+        padding: 2em;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    figure {
+        height: auto;
+        width: 350px;
+    
+        img {
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    div {
+        margin-left: 1em;
+
+        h1, h2 {
+            display: block;
+            margin: 0;
+        }
+    }
+}
+
+/*-------------------------------------
+                MENÚ
+--------------------------------------*/
+nav.main-menu {
+    background: @blackgray;
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        text-align: center; /*para que se nos alineé al centro*/
+        
+        li {
+            display: inline-block;
+
+            a {
+                display: block;
+                color: #fff;
+                padding: 1em 1em;
+                text-transform: uppercase; /*hace todo en mayúsculas*/
+                -webkit-transition: color .25s linear;
+                -moz-transition: color .25s linear;
+                -o-transition: color .25s linear;
+                transition: color .25s linear;
+
+                &:hover {
+                    background: #f3f2f2;
+                    color: #111;
+                }
+            }
+        }
+    }
+}
+
+/*-------------------------------------
+            ARTICULOS
+--------------------------------------*/
+section.projects {
+    margin: 0%;
+    padding: 3em;
+    text-align: center;
+             
+    article {
+        background: transparent;
+        display: inline-block;
+        margin: 2em;
+        width: auto;
+
+        div, figure {
+            display: block;
+            vertical-align: middle;
+            width: 49%;
+        }
+
+        div {
+            margin: 0 5%;
+            text-align: left;
+
+                h2 {
+                    margin: 0;
+
+                a {
+                    color: @blackgray;
+                    display: block;
+                }
+            }
+        }
+
+        figure {
+            height: auto;
+            margin: 0;
+            width: 100%;
+
+            img {   /*Imagen retina*/
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
+}
+
+section.projects-second {
+    margin: 0%;
+    text-align: center;
+             
+    article {
+        background: transparent;
+        display: inline-block;
+        margin: 2em;
+        width: auto;
+
+        div, figure {
+            display: block;
+            vertical-align: middle;
+            width: 49%;
+        }
+
+        div {
+            margin: 0 5%;
+            text-align: left;
+
+                h2 {
+                    margin: 0;
+
+                a {
+                    color: @blackgray;
+                    display: block;
+                }
+            }
+        }
+
+        figure {
+            height: auto;
+            margin: 0;
+            width: 100%;
+
+            img {   /*Imagen retina*/
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
+}
+p {
+    text-align: justify;
+}
+
+td {
+    padding: 0.8em;
+    text-align: justify;
+}
+/*-------------------------------------
+                CLASES
+--------------------------------------*/
+.picture {
+    margin: 0 auto;
+    height: 464px;
+    width: 300px;
+}
+
+.picture img {
+    border-radius: 0%; /*esto es magia*/
+    box-shadow: @asbestos 0 0 1em;
+    height: 100%;
+    width: 100%;
+}
+
+.tiles {
+    margin: 0 auto;
+    height: 300px;
+    width: 300px;
+}
+
+.tiles img {
+    border-radius: 0%; /*esto es magia*/
+    height: 100%;
+    width: 100%;
+}
+
+.btn {
+    background: @blackgray;
+    color: #fff;
+    border-radius: .25em;
+    padding: .5em 1em;
+}
+
+.title {
+    text-align: center;
+}
+
+.special-text {
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.wall {
+    background-image: url(../img/header.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+.footer-text {
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.port-info {
+    text-align: left;
+}
+
+.icon-text {
+    padding: 0.8em;
+    display: inline-block;
+}
+
+.background {
+    background-color: @blackgray;
+}
+
+.columna1 {
+    width: 33%
+}
+
+.columna2 {
+    width: 33%
+}
+
+.list-icons {
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        text-align: center; /*para que se nos alineé al centro*/
+        
+        li {
+            display: inline-block;
+            padding: 0.3em;
+        }
+    }
+}
+/*-------------------------------------
+                FOOTER
+--------------------------------------*/
+
+footer {
+    background: @blackgray;
+    color: #fff;
+    text-align: center;
+    padding: 1.5em 0;
+ 
+    p {
+        margin: 0;
+        font-family: 'Roboto';
+        font-weight: 300;
+        font-size: 0.8em;
+        text-align: center;
+    }
+}
+/*-------------------------------------
+        RESPONSIVE PARA MÓVILES
+--------------------------------------*/
+@media screen and (max-width: 35em) {
+
+    #logo {
+        figure, div {
+            margin: 2% auto;
+            display: block;
+            text-align: center;
+            width: 100%;
+        }
+    }
+}
